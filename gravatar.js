@@ -8,6 +8,6 @@ var gravatar = function() {
   }
 
   function getUserProfile(email) {
-    return 'https://secure.gravatar.com/' + md5(email.trim().toLowerCase())';
+    return 'https://secure.gravatar.com/' + md5(email.trim().toLowerCase());
   }
-}
+
