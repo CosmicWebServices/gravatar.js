@@ -1,11 +1,12 @@
-function getImage(email, size) {
+var gravatar = {};
+gravatar.getImage = function(email, size) {
   return '<img src="https://secure.gravatar.com/avatar/' + md5(email.trim().toLowerCase()) + '?s=' + size + '&d=mm">';
 }
 
-function getImageWithType(email, size, filetype) {
+gravatar.getImageWithType = function(email, size, filetype) {
   return '<img src="https://secure.gravatar.com/avatar/' + md5(email.trim().toLowerCase()) + '?s=' + size + '&d=mm ' + filetype + '">';
 }
 
-function getUserProfile(email) {
+gravatar.getUserProfile = function(email) {
   return 'https://secure.gravatar.com/' + md5(email.trim().toLowerCase());
 }
