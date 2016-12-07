@@ -11,3 +11,4 @@ var gravatar = function() {
     return 'https://secure.gravatar.com/' + md5(email.trim().toLowerCase());
   }
 
+};
