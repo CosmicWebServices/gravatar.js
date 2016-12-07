@@ -4,7 +4,7 @@ var gravatar = function() {
   }
 
   function getImageWithType(email, size, filetype) {
-    return '<img src="https://secure.gravatar.com/avatar/' + md5(email.trim().toLowerCase()) + '?s=' + size + '&d=mm ' + filetype '">';
+    return '<img src="https://secure.gravatar.com/avatar/' + md5(email.trim().toLowerCase()) + '?s=' + size + '&d=mm ' + filetype + '">';
   }
 
   function getUserProfile(email) {
