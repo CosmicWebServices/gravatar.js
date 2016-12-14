@@ -19,6 +19,8 @@ alert (image);
 </script>
 ```
 
+or try the [demo](https://jsfiddle.net/m5f7h42z/).
+
 ### How to use with Node.js
 
 Instructions coming soon when NPM module is published!
