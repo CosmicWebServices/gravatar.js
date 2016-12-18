@@ -19,7 +19,7 @@ alert (image);
 </script>
 ```
 
-or try the [demo](https://jsfiddle.net/m5f7h42z/1/).
+or try the [demo](https://jsfiddle.net/m5f7h42z/2/).
 
 ### How to use with Node.js
 
