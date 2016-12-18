@@ -12,8 +12,7 @@ Features:
 ### How to use with Javascript
 
 ```
-<script src="https://cdn.jsdelivr.net/gravatar.js/v0.2/md5.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gravatar.js/v0.2/gravatar.min.js"></script>
+<script src="https://cdn.jsdelivr.net/g/gravatar.js@v0.2(md5.min.js+gravatar.min.js)"></script>
 <script>
 var image = gravatar.getImage(email, size);
 alert (image);
